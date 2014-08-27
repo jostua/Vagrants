@@ -1,0 +1,50 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  
+  #Set base box settings for each of the following machines.
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.box_check_update = false
+  #Turn off shared folders.
+  config.vm.synced_folder "../data", "/vagrant_data", disabled: true
+
+  #Begin server 1, ububox
+  config.vm.define "ububox" do |ububox|
+    ububox.vm.hostname = "ububox"
+    ububox.vm.network "private_network", ip: "192.168.33.101",
+      auto_config: false
+    
+    #set the public interface for ububox (acting as a "router" for the other VMs)
+    ububox.vm.network "public_network"
+    ububox.vm.provision "shell" do |s| 
+      s.path = "bootstrap.sh"
+      s.args = "ububox"
+    end
+  end
+
+  #Begin server 2, web
+  config.vm.define "web" do |web|
+    web.vm.hostname = "web"
+    web.vm.network "private_network", ip: "192.168.33.102",
+      auto_config: false
+    web.vm.provision "shell" do |s| 
+      s.path = "bootstrap.sh"
+      s.args = "web"
+    end
+  end
+
+  #Begin server 3, email
+  config.vm.define "email" do |email|
+    email.vm.hostname = "email"
+    email.vm.network "private_network", ip: "192.168.33.103",
+      auto_config: false
+    email.vm.provision "shell" do |s| 
+      s.path = "bootstrap.sh"
+      s.args = "email"
+    end
+  end
+end

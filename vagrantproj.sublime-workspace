@@ -1,0 +1,858 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"shp",
+				"shp_transaction_t"
+			],
+			[
+				"shp_",
+				"shp_charge_t"
+			],
+			[
+				"pri",
+				"pripolicy"
+			],
+			[
+				"r_",
+				"r_rolling_month"
+			],
+			[
+				"post",
+				"post_month"
+			],
+			[
+				"pro",
+				"provgrpcode"
+			],
+			[
+				"r_roll",
+				"r_rolling_month_ar"
+			],
+			[
+				"mysql_query",
+				"mysql_query_err"
+			],
+			[
+				"mysql_qu",
+				"mysql_query_err"
+			],
+			[
+				"revc",
+				"revctrdesc"
+			],
+			[
+				"inscl",
+				"insclassdesc"
+			],
+			[
+				"correct",
+				"correcteddate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ububox/Vagrantfile",
+			"settings":
+			{
+				"buffer_size": 1432,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "options {\n        directory \"/var/cache/bind\";\n\n        // If there is a firewall between you and nameservers you want\n        // to talk to, you may need to fix the firewall to allow multiple\n        // ports to talk.  See http://www.kb.cert.org/vuls/id/800113\n\n        // If your ISP provided one or more IP addresses for stable\n        // nameservers, you probably want to use them as forwarders.\n        // Uncomment the following block, and insert the addresses replacing\n        // the all-0's placeholder.\n\n        forwarders {\n                8.8.8.8;\n                4.4.4.4;\n        };\n\n        //========================================================================\n        // If BIND logs error messages about the root key being expired,\n        // you will need to update your keys.  See https://www.isc.org/bind-keys\n        //========================================================================\n        dnssec-validation auto;\n\n        auth-nxdomain no;    # conform to RFC1035\n        listen-on-v6 { any; };\n\n};\n",
+			"settings":
+			{
+				"buffer_size": 1035,
+				"line_ending": "Windows",
+				"name": "options {"
+			}
+		},
+		{
+			"file": "ububox/bootstrap.sh",
+			"settings":
+			{
+				"buffer_size": 3739,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ldev/bootstrap.sh",
+			"settings":
+			{
+				"buffer_size": 1234,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Mote",
+				"Bookmarks: Toggle"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/cygwin64/home/jlynch/Vagrants/ldev/Vagrantfile",
+		"/C/cygwin64/home/jlynch/Vagrants/ldev/bootstrap.sh",
+		"/C/cygwin64/home/jlynch/Vagrants/Vagrantfile",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1408378858/midasweb.config/var/www/html/Forums/includes/page_header.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1408379060/midasweb.config/var/www/html/Forums/common.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1408469179/midasweb.config/var/www/html/analyzer/webtest.jl.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1408052148/midasweb.config/var/www/html/analyzer/CPA_Inscode.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1408050674/midasweb.config/var/www/html/analyzer/r_rollingmonth_w-ar.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1408466213/midasweb.config/var/www/html/analyzer/refund_letter.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1408379038/midasweb.config/var/www/html/Forums/extension.inc",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1408052938/reportJL.config/home/laravel/reporting/app/views/templates/report2.blade.php",
+		"/C/Users/jlynch/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/reportJL.config",
+		"/C/Users/jlynch/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407884528/midasweb.config/var/www/html/analyzer/menu_index.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407883255/midasweb.config/var/www/html/includes/build_table_class.inc.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407860498/midasweb.config/var/www/html/Connections/mysql_analyzer.inc.php",
+		"/C/Users/jlynch/AppData/Local/Temp/sublime-sftp-browse-1407961669/midasweb.config/var/www/html/analyzer/scrub_viewdata.php",
+		"/C/Users/jlynch/AppData/Local/Temp/sublime-sftp-browse-1407452193/midasweb.config/var/www/html/analyzer/progbar.jl.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407884878/midasweb.config/var/www/html/analyzer/r_rollingmonth_w-ar.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407867221/midasweb.config/var/www/html/analyzer/denial_details.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407961513/analyzerROOT.config/mss/sftp/TRANS/TRANS_ecare_to_medfocus.sh",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407866726/midasweb.config/var/www/html/analyzer/rollmonth.jl.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407860684/midasweb.config/var/www/html/Mail/insert_edit_mail.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407444601/midasweb.config/var/www/html/analyzer/jl_temp_revcntPD.php",
+		"/C/Users/jlynch/AppData/Roaming/Sublime Text 3/Packages/SQLExec/Default (Windows).sublime-keymap",
+		"/C/Users/jlynch/AppData/Local/Temp/sublime-sftp-browse-1407452193/midasweb.config/var/www/html/analyzer/rollmonth.jl.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407535801/midasweb.config/var/www/html/Connections/mysql_analyzer.inc.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407513814/midasweb.config/var/www/html/analyzer/revctr_by_insclass.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407172328/midasweb.config/var/www/html/analyzer/assocAR_rpt.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407256774/midasweb.config/var/www/html/analyzer/prov_rvu.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407268842/midasweb.config/var/www/html/includes/build_table_class.inc.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407254023/analyzerROOT.config/mss/sftp/TRANS/TRANS_from_ecare_xfer.sh",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407254231/analyzerROOT.config/mss/scripts/mvc.sh",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407341806/analyzerROOT.config/mss/sftp/TRANS/TRANS_to_ecare_xfer.sh",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407341894/analyzerROOT.config/mss/sftp/TRANS/TRANS_eft_to_ecare_xfer.sh",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407344198/midasweb.config/var/www/html/analyzer/menu_index.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407173575/midasweb.config/var/www/html/reports/charts/assoc_AR_CPA.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407170001/midasweb.config/var/www/html/analyzer/insclass_cpt.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407181342/midasweb.config/var/www/html/analyzer/aging_summary_revctr.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407185176/midasweb.config/var/www/html/analyzer/prov_rvu.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407194174/midasweb.config/var/www/html/analyzer/prov_rvu.tmp.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1407178251/midasweb.config/var/www/html/analyzer/D_payments.php",
+		"/C/Users/jlynch/AppData/Roaming/Sublime Text 3/Packages/User/SQLExec.sublime-settings",
+		"/V/mss/import_analyzer/import_indiv.php",
+		"/V/mss/import_analyzer/check_import_analyzer.php",
+		"/C/Users/jlynch/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/jlynch/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/V/mnt/midas/analyzer/refund_letter.php",
+		"/V/mnt/midas/analyzer/refund_dash.php",
+		"/V/mnt/midas/analyzer/aging_details.php",
+		"/V/mnt/midas/includes/build_html_class.inc.php",
+		"/V/mnt/midas/Connections/mysql_analyzer.inc.php",
+		"/V/mnt/midas/includes/functions.inc.php",
+		"/V/mnt/midas/Connections/analyzer.php",
+		"/V/mnt/midas/analyzer/AR_aging_details.php",
+		"/V/mnt/midas/analyzer/AR.php",
+		"/C/cygwin64/home/jlynch/Programming/Reporting/ReportingPHP.sublime-project",
+		"/C/cygwin64/home/jlynch/Programming/PHP/filesize.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1406044504/analyzerROOT.config/mnt/midas/analyzer/aging_details.php",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1406044181/analyzerROOT.config/mnt/midas/reports/batchday_analysis.php",
+		"//Fileserver/USER/jlynch/Projects/RunningTasks.txt",
+		"/C/Users/jlynch/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/analyzerROOT.config",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1405974936/analyzerROOT.config/mss/scripts/dir_comp.sh",
+		"/C/Users/jlynch/AppData/Roaming/Sublime Text 3/Packages/Mote/servers.json",
+		"/C/cygwin64/home/jlynch/Programming/Shell/transfer_update.sh",
+		"/C/cygwin64/home/jlynch/Programming/steps for moving sftp",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1405974571/sftpserver.config/home/jlynch/.ssh/authorized_keys",
+		"/C/users/jlynch/appdata/local/temp/sublime-sftp-browse-1405974528/sftpserver.config/home/jlynch/.ssh/authorized_keys"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"home",
+			"xyz",
+			"zyx",
+			"twidth",
+			"phpEx",
+			"30",
+			"xyz",
+			"zyx",
+			"th_elm",
+			"th_elm_extra",
+			"$value",
+			"zyx",
+			"['InsClass']",
+			"['Modality']",
+			"['CP']",
+			"$revselect",
+			"revctr_charge",
+			"\".$xyz.\"",
+			"$end",
+			"$start",
+			"$_REQUEST['pos']==1",
+			"$_REQUEST['rvc']==1",
+			"$_REQUEST['rvc']=='1'",
+			"$_REQUEST['pos']=='1'",
+			"result",
+			"RNG",
+			"create",
+			"trans",
+			"check_trans",
+			"\\n",
+			"_SCRUB_ID_",
+			"PSP",
+			"psp",
+			"PSP",
+			"xyz",
+			"zyx"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"vagrants",
+			"shp",
+			"SHP",
+			"50",
+			"ema",
+			"'EMA'",
+			"$key",
+			"['Percentage of Monthly Charges by Insurance Class']",
+			"['CPT Counts by Modality']",
+			"['Charges and Payments']",
+			"$moselect",
+			"r_rolling_month",
+			"rci",
+			"2014-07-31",
+			"2014-06-01",
+			"$_REQUEST['grp_type'] =='pos'",
+			"$_REQUEST['grp_type'] =='rvc'",
+			"$_REQUEST['grp_type'] =='pos'",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ububox/Vagrantfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								641,
+								641
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1034,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "options {",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ububox/bootstrap.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3679,
+								3679
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1521.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ldev/bootstrap.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								303
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SQLExec":
+	{
+		"height": 588.0
+	},
+	"output.SQLExec.errors":
+	{
+		"height": 88.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"project": "vagrantproj.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
